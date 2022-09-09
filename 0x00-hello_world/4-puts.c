@@ -1,16 +1,15 @@
 /*
- * File: 4-puts.c
- * Auth: CharlyAnne
+ * File:4-put.c
+ * Auth:CharlyAnne
  */
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main- Print to screen.
- * 
- * Return: Always 0 (success)
+ * main-print to screen.
+ *
+ * Return:Always 0 (success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-
-	return (0);
+	put("\"Programming is like building a mutilingual puzzle");
+	return(0);
 }
