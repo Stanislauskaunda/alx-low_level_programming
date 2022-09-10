@@ -7,7 +7,7 @@
 /**
  * main - Print to screen
  *
- * Retur: Always 1 (success)
+ * Return: Always 1 (success)
  */
 
 int main(void)
