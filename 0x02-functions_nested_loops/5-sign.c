@@ -6,7 +6,7 @@
  *
  * @n: variable number to be checked
  *
- * Return : Always 0.
+ * Return: 0 if succesful
  */
 int print_sign(int n)
 
