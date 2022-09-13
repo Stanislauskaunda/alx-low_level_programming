@@ -7,9 +7,11 @@ nclude "main.h"
  */
 void print_alphabet(void)
 {
-	char i;
+	char c;
 
-	for (i = 'a'; i <= 'z'; i++)
-		_putchar(i);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c)
+	}
 	_putchar('\n');
 }
