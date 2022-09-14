@@ -11,7 +11,6 @@
 int main(void)
 {
 	int i;
-	
 	long a = 1, b = 2, r = 0;
 
 	printf("1, 2");
