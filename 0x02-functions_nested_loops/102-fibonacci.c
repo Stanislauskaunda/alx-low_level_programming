@@ -19,6 +19,7 @@ int main(void)
 		r = a + b;
 		a = b;
 		b = r;
+
 		printf(", %ld", r);
 	}
 	putchar('\n');
