@@ -3,10 +3,9 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @s: input string.
- * new line, ,, ;, ., !, ?, ", (, ), {, and }.
+ * new line, ,, ;, ., !, ?, , (, ), {, and }.
  * @s: pointer to string.
  */
-
 char *cap_string(char *s)
 
 {
@@ -15,7 +14,6 @@ char *cap_string(char *s)
 	/* scan through string */
 
 	count = 0;
-
 	while (s[count] != '\0')
 	{
 		/* if next character after count is a char , capitalise it */
