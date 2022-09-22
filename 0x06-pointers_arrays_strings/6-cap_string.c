@@ -7,12 +7,10 @@
  * @s: pointer to string.
  */
 char *cap_string(char *s)
-
 {
 	int count;
-
+	
 	/* scan through string */
-
 	count = 0;
 	while (s[count] != '\0')
 	{
