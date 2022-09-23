@@ -20,6 +20,7 @@ int isPrintableASCII(int n)
  * @end: ending position
  */
 void printHexes(char *b, int start, int end)
+
 {
 	int i = 0;
 	
@@ -43,6 +44,7 @@ void printHexes(char *b, int start, int end)
  * @end: ending position
  */
 void printASCII(char *b, int start, int end)
+
 {
 	int ch, i = 0;
 
@@ -60,8 +62,8 @@ void printASCII(char *b, int start, int end)
  * @b: string
  * @size: size of buffer
  */
-
 void print_buffer(char *b, int size)
+
 {
 	int start, end;
 
