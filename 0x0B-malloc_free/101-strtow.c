@@ -26,8 +26,8 @@ int word_counter(char *s)
 	return (wnbr);
 }
 /**
- * **strtow - a function that splits a string into words 
- * @str: string to split 
+ * **strtow - a function that splits a string into words
+ * @str: string to split
  * Return: a pointer to an array of strings (words),
  * NULL on failure or if str == NULL or str == ""
  *
