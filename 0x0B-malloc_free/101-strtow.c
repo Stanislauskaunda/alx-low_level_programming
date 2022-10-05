@@ -6,7 +6,9 @@
  * @s: string to evaluate
  * Return: number of words
  */
+int word_counter(char *s)
 {
+
 	int f, i, wnbr;
 
 	f = 0;
@@ -23,14 +25,13 @@
 	}
 	return (wnbr);
 }
-
 /**
- * **strtow - a function that splits a string into words
- * @str: string to split
+ * **strtow - a function that splits a string into words 
+ * @str: string to split 
  * Return: a pointer to an array of strings (words),
  * NULL on failure or if str == NULL or str == ""
+ *
  */
-
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
